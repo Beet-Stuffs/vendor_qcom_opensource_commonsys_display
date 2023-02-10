@@ -2,6 +2,7 @@ soong_namespace {
     imports: [
         "vendor/qcom/opensource/commonsys-intf/display"
     ],
+}
 
 soong_config_module_type {
     name: "qtidisplaycommonsys_cc_defaults",
@@ -23,4 +24,3 @@ qtidisplaycommonsys_cc_defaults {
         },
     },
   }
-}
